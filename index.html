@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedded Excel File</title>
     <style>
-        body, html {
-            height: 100%;
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            overflow: hidden;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
         }
         iframe {
-            width: 100%;
-            height: 100%;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
+    <!-- Embed Excel File -->
     <iframe 
-        width="402" 
-        height="346" 
+        src="https://1drv.ms/x/c/2ccd7bbb1875d132/IQSnjT0TAX_gTZLuY36NKVyGAZuAuJFRc7-T9Y6CnE-IZTA" 
+        width="700" 
+        height="600" 
         frameborder="0" 
-        scrolling="no" 
-        src="https://onedrive.live.com/embed?resid=2CCD7BBB1875D132!133d8da77f014de092ee637e8d295c86&authkey=!AUTHKEY&em=2&wdAllowInteractivity=False&ActiveCell='ROSTER'!H9&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True">
+        scrolling="no">
     </iframe>
 </body>
 </html>
